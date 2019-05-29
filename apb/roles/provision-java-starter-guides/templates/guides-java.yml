@@ -58,26 +58,6 @@ objects:
       modules:
         activate:
         - common-environment
-        - common-cli
-        - common-explore
-        - common-parksmap-architecture
-        - parksmap-docker
-        - parksmap-scaling
-        - parksmap-routes
-        - parksmap-logging
-        - parksmap-permissions
-        - parksmap-rsh
-        - nationalparks-java
-        - nationalparks-java-databases
-        - nationalparks-application-health
-        - nationalparks-java-pipeline
-        - nationalparks-java-pipeline-codechanges-gogs
-        - mlbparks-templates
-        - mlbparks-clustering
-        - mlbparks-binary-build
-        - mlbparks-debugging
-        - common-further-resources
-        - common-workshop-links
 - kind: ImageStream
   apiVersion: v1
   metadata:

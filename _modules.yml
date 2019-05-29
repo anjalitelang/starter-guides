@@ -69,7 +69,7 @@ config:
 
 modules:
   common-environment:
-    name: Accessing your Openshift Dedicated cluster
+    name: Accessing cluster Overview
     vars:
       ENV_MASTERS:
       ENV_INFRA:
