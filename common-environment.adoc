@@ -1,31 +1,32 @@
 ## Access your cluster
 
-image::console.png[Dedicated Console]
-
 Once your OpenShift Dedicated cluster is configured and ready to use, you can access it through the following paths:
 
-1. Cluster ID: The unique cluster name provided by the customer during provisioning. It is lowercase, and only contains letters, numbers, and hyphens.
+* 1. Cluster ID: The unique cluster name provided by the customer during provisioning. It is lowercase, and only contains letters, numbers, and hyphens.
 
-2. Console URL: The OpenShift Dedicated URL for the web console.
+* 2. Console URL: The OpenShift Dedicated URL for the web console.
 
 ----
 https://console.<cluster-id>.openshift.com
 ----
 
-3. API URL: The OpenShift Dedicated URL for the OpenShift and Kubernetes REST API.
+image::console.png[Dedicated Console,500,500]
+
+
+* 3. API URL: The OpenShift Dedicated URL for the OpenShift and Kubernetes REST API.
 
 ----
 https://api.<cluster-id>.openshift.com
 ----
 
-4. Registry URL: The OpenShift Dedicated URL for the private image registry. In addition to containing all images used by OpenShift Dedicated, podman pull or docker pull and podman push or docker push can be used directly on the registry.
+* 4. Registry URL: The OpenShift Dedicated URL for the private image registry. In addition to containing all images used by OpenShift Dedicated, podman pull or docker pull and podman push or docker push can be used directly on the registry.
 
-5. Metrics API URL: The OpenShift Dedicated URL for the Hawkular Metrics API.
+* 5. Metrics API URL: The OpenShift Dedicated URL for the Hawkular Metrics API.
 ----
 https://metrics.<cluster-id>.openshift.com
 ----
 
-6. Logging URL: The OpenShift Dedicated URL for the aggregate logging Kibana interface.
+* 6. Logging URL: The OpenShift Dedicated URL for the aggregate logging Kibana interface.
 ----
 https://logs.<cluster-id>.openshift.com
 ----
